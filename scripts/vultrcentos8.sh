@@ -1,6 +1,6 @@
 #!/bin/sh
 random() {
-	tr </dev/urandom -dc A-Za-z0-9 | head -c11
+	tr </dev/urandom -dc A-Za-z0-9 | head -c9
 	echo
 }
 
